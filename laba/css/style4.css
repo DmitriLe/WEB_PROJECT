@@ -1,0 +1,73 @@
+
+body {
+    background-color: #fff;
+}
+
+.shap {
+    color:#fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    color:#000;
+    font-weight:bold;
+}
+
+
+.menu {
+	position: relative;
+	cursor: pointer;
+	line-height: 2;
+	text-decoration: none;
+
+}
+.menu:after {
+	display: block;
+	position: absolute;
+	left: 0; 
+	width: 0;
+	height: 2px; 
+	background-color: #000; 
+	content: "";
+	transition: width 0.3s ease-out;
+}
+
+.menu:hover:after,
+.menu:focus:after {
+	width: 100%;
+}
+
+.menunu {
+    color:#ffffff;
+    font-weight:bold;
+    font-size: 22px;
+}
+
+
+.menunu {
+	position: relative;
+	cursor: pointer;
+	line-height: 2;
+	text-decoration: none;
+
+}
+.menunu:after {
+	display: block;
+	position: absolute;
+	left: 0; 
+	width: 0;
+	height: 2px; 
+	background-color: #ffffff; 
+	content: "";
+	transition: width 0.3s ease-out;
+}
+
+.menunu:hover:after,
+.menunu:focus:after {
+	width: 100%;
+}
+
+

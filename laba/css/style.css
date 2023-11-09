@@ -1,0 +1,149 @@
+
+body {
+    background-color: #fff;
+}
+
+.box {
+    color:#fff;
+}
+
+.vvod {
+    border-radius: 5px;
+}
+
+.button {
+    border: none;
+    outline: none;
+    color: #000;
+    background: #fffb00;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: #c2a500;
+}
+
+.button1 {
+    border: none;
+    outline: none;
+    color: #000;
+    background: #fffb00;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    transition: 0.3s;
+    width:80px;
+    height:25px;
+    margin-left: -18px;
+    margin-right:20px;
+}
+
+.button1:hover {
+    background-color: #c2a500ab;
+}
+
+.shap {
+    color:#fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    color:#000;
+    font-weight:bold;
+}
+
+
+.menu {
+	position: relative;
+	cursor: pointer;
+	line-height: 2;
+	text-decoration: none;
+
+}
+.menu:after {
+	display: block;
+	position: absolute;
+	left: 0; 
+	width: 0;
+	height: 2px; 
+	background-color: #000; 
+	content: "";
+	transition: width 0.3s ease-out;
+}
+
+.menu:hover:after,
+.menu:focus:after {
+	width: 100%;
+}
+
+.reg {
+    color:#000;
+    font-weight:bold;
+    text-decoration: none;
+}
+
+.menunu {
+    color:#ffffff;
+    font-weight:bold;
+    font-size: 22px;
+}
+
+
+.menunu {
+	position: relative;
+	cursor: pointer;
+	line-height: 2;
+	text-decoration: none;
+
+}
+.menunu:after {
+	display: block;
+	position: absolute;
+	left: 0; 
+	width: 0;
+	height: 2px; 
+	background-color: #ffffff; 
+	content: "";
+	transition: width 0.3s ease-out;
+}
+
+.menunu:hover:after,
+.menunu:focus:after {
+	width: 100%;
+}
+
+.leftmenu {
+    color:#fff;
+    margin-bottom: 20px;
+    margin-right:50px;
+    line-height: 230%;
+    font-family: 'Martian Mono', monospace; 
+    transition: 0.4s;
+}
+
+.leftmenu:hover {
+    color:#686868;
+}
+
+.txt {
+    color:#fff;
+}
+
+.table {
+    color:#fff;
+    border:3px solid #ffffff;
+    border-color: #ffffff;
+}
+
+.txtxt {
+    color:#fff;
+}
+
